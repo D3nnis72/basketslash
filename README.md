@@ -1,2 +1,3 @@
-# basketslash
-Game for Mobile Game Development Assignment 1
+Spieleentwicklung für mobile Geräte Assignment 1
+Dennis Zink
+dz032
