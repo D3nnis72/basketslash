@@ -21,6 +21,7 @@ public class SliceManager : MonoBehaviour
         Vector3 slicePosition = collision.contacts[0].point;
         Vector3 swordDirection = sword.forward;
 
+        // Das kommt noch weg, das ist jetzt nur das man auch mit der "Stumpfenseite" des Schwert schneiden kann
         float alignment = Vector3.Dot(sword.forward, collisionNormal);
         if (Mathf.Abs(alignment) > 0.9f)
         {
